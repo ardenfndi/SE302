@@ -64,7 +64,7 @@ npx playwright test tests/<test-file-name>.js
 ```
 For example:
 ```bash
-npx playwright test tests/login.test.js
+npx playwright test smoke/login.test.js
 ```
 
 ### Viewing Test Reports
