@@ -135,18 +135,19 @@ module.exports = { LoginPage };
 
 ## Challenges Faced
 
-1. **Dynamic Content Handling**:
-   - Challenge: Ensuring tests work consistently with dynamically loaded content.
-   - Solution: Added `waitFor` conditions to handle dynamic elements.
+• Maintaining Synchronization: Ensuring that the test scripts remain synchronized with 
+dynamic web elements can be challenging. This is typically addressed by implementing 
+appropriate wait strategies to handle asynchronous page loads and dynamic content. 
 
-2. **Cross-Browser Compatibility**:
-   - Challenge: Ensuring tests run smoothly across Chromium, Firefox, and WebKit.
-   - Solution: Configured Playwright to test on multiple browsers.
+• Managing Complex Page Structures: Handling pages with complex structures or a large 
+number of elements can lead to bulky page classes. This is mitigated by breaking down 
+large pages into smaller, manageable sections or components, each represented by its 
+own class. 
 
-3. **Dependency Management**:
-   - Challenge: Maintaining consistent versions of dependencies.
-   - Solution: Locked dependency versions using `package-lock.json`.
-
+• Ensuring Consistent Naming Conventions: Maintaining consistent and descriptive 
+naming conventions for methods and variables within page classes is crucial for 
+readability and maintainability. Establishing and adhering to a clear naming convention 
+helps in this regard. 
 ---
 
 ## Contribution Guidelines
