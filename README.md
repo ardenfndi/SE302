@@ -148,6 +148,8 @@ own class.
 naming conventions for methods and variables within page classes is crucial for 
 readability and maintainability. Establishing and adhering to a clear naming convention 
 helps in this regard. 
+
+
 ---
 
 ## Contribution Guidelines
